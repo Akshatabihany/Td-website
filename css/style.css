@@ -194,4 +194,33 @@ body{
 
 .card{
   border-radius: 10%;
+  transition:0.1s ease;
+  -webkit-transition:0.1s ease;
+  -moz-transition:0.1s ease;
+  -ms-transition:0.1s ease;
+  -o-transition:0.1s ease;
 }
+
+.domain-img{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition:0.1s ease;
+  -webkit-transition:0.1s ease;
+  -moz-transition:0.1s ease;
+  -ms-transition:0.1s ease;
+  -o-transition:0.1s ease;
+}
+
+.card:hover img{
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
+
+.card:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
