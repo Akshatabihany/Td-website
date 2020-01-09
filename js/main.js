@@ -61,6 +61,4 @@ const observer = new IntersectionObserver((entries,observer) => {
 sections.forEach((section) => {
     observer.observe(section);
 });
-
-
 // !Navbar elements highlight on scroll
