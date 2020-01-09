@@ -296,6 +296,26 @@ input{
   transition: 0.2s ease all !important;
 }
 
+.form-btn{
+  border: 2px solid #255F85;
+  color: #255F85;
+  padding: 6px 16px;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+  transition:  0.5s ease;
+  -webkit-transition:  0.5s ease;
+  -moz-transition:  0.5s ease;
+  -ms-transition:  0.5s ease;
+  -o-transition:  0.5s ease;
+}
+
+.form-btn:hover{
+  background-color: #255f85;
+  color: white;
+}
 
 .footer{
   width: 100%;
