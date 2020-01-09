@@ -28,7 +28,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <ul class="navbar-nav ml-auto">
                     <li class="nav-item active" id="li-home">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -39,14 +39,14 @@
                     <li class="nav-item" id="li-domains">
                         <a class="nav-link" href="#domains">Domains</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="li-projects">
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="li-team">
                         <a class="nav-link" href="#">Team</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                    <li class="nav-item" id="li-contact-us">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
                     </li>
                     </ul>
                 </div>
@@ -56,7 +56,7 @@
         <section id="hero">
             <div class="hero-container">
               <h1>Think-Digital</h1>
-              <h2>Fulfilling the Tech Thirst</h2>
+              <div><h2>Fulfilling the Tech Thirst</h2></div>
               <a href="#about-us" class="btn-get-started">Know More</a>
             </div>
         </section>
@@ -70,19 +70,7 @@
                 <p class="mx-auto pt-5">We are a team of freelancers who completely focus on new products and services on corporate, social and individual needs. Think-Digital provides you a technical solution for any of your Ideas. TD also provides you technical assistance for your Products. Thus, "Fulfilling the Tech-Thirst". We make roadmaps on different domains and provide guidance for Self Study. Thus encouraging the people to be technical experts on not just what they know, but what they want to know.</p>
             </div>
             <div class="col-sm-6 wow slideInRight pt-2" style="text-align: center;" data-wow-duration="1.5s">
-                <img src="img/code-review.svg" id="illustration-img">
-            </div>
-        </div>
-        <div class="row pt-5">
-            <div class="col-sm-6 wow slideInLeft" data-wow-duration="1.5s">
-                <img src="img/web-developer.svg" id="illustration-img2">
-            </div>
-            <div class="col-sm-6 wow slideInRight pt-2" style="text-align: center;" data-wow-duration="1.5s">
-                <ul>
-                    <li>We create a tailored platform for the people who are dedicated to learn and selfless to teach others. We don't want people to work under us. We want people who can work with us.</li>
-                    <li>We introduce our members to different domains and try to extract out the entrepreneur in everyone. Every member of our team should become a leader and create new teams with similar or partial visions.</li>
-                    <li>We give exposure to the corporate culture and real time projects to make them feel free about working with any company or as a team.</li>
-                </ul>
+                <img src="img/about.svg" id="illustration-img">
             </div>
         </div>
     </section>
@@ -92,21 +80,21 @@
         <div class="line mx-auto mb-4"></div>
 
         <div class="card-deck mb-3 wow zoomIn" data-wow-duration="1.5s">
-            <div class="card text-center shadow">
+            <div class="card text-center shadow m-3">
               <div class="card-body">
                 <h3 class="card-title"><span>W</span>eb Development</h3>
                 <img  class="domain-img" src="img/laptop.svg">
                 <p class="card-text">Websites are always trending and web technology is developing rapidly. So we train you to be a well-versed and knowledgeable developer.</p>
               </div>
             </div>
-            <div class="card text-center shadow">
+            <div class="card text-center shadow m-3">
                 <div class="card-body">
                   <h3 class="card-title"><span>A</span>pp Development</h3>
                   <img class="domain-img" src="img/app.svg">
                   <p class="card-text">With over 5 billion mobile users across the globe, there can’t be a better time than now for you to start considering mobile application development.</p>
                 </div>
             </div>
-            <div class="card text-center shadow">
+            <div class="card text-center shadow m-3">
                 <div class="card-body">
                   <h3 class="card-title"><span>I</span>nternet Of Things</h3>
                   <img  class="domain-img" src="img/internet-of-things.svg">
@@ -115,21 +103,21 @@
             </div>
         </div>
         <div class="card-deck wow zoomIn" data-wow-duration="1.5s">
-            <div class="card text-center shadow">
+            <div class="card text-center shadow m-3">
               <div class="card-body">
                 <h3 class="card-title"><span>G</span>raphic Design</h3>
                 <img  class="domain-img" src="img/graphic.svg">
                 <p class="card-text">Participate in designing computer graphics, web page graphics, logos, illustrations, advertisements, brochures and many other forms of visual communication.</p>
               </div>
             </div>
-            <div class="card text-center shadow">
+            <div class="card text-center shadow m-3">
                 <div class="card-body">
-                  <h3 class="card-title"><span>V</span>irtual Reality</h3>
-                  <img  class="domain-img" src="img/vr-glasses.svg">
+                  <h3 class="card-title"><span>G</span>ame Development</h3>
+                  <img src="img/game.svg">
                   <p class="card-text">Let's turn the virtual dream into a reality. While cyber-gloves might be a thing of fiction (at least for now!), the rise in popularity of sectors like Virtual Reality and Augmented Reality is more than real.</p>
                 </div>
             </div>
-            <div class="card text-center shadow">
+            <div class="card text-center shadow m-3">
                 <div class="card-body">
                   <h3 class="card-title"><span>H</span>R & Marketing</h3>
                   <img  class="domain-img" src="img/hr.svg">
@@ -139,6 +127,69 @@
         </div>
         
         
+    </section>
+
+    <section class="container mt-5" id="contact-us">
+        <h2 class="mb-3 wow fadeIn pb-3">Contact Us</h2>
+        <div class="line mx-auto"></div>
+        <div class="row">
+            <div class="col-sm-6 wow slideInLeft" data-wow-duration="1.5s">
+                <img src="img/contact.svg">
+            </div>
+            <div class="col-sm-6 wow slideInRight pt-2" style="text-align: center;" data-wow-duration="1.5s">
+                <form>
+                    <div class="div1 mx-auto py-3" style="width: 250px;position: relative;">
+                        <input type="text" class="name" style="width: 100%;" required/>
+                        <span class="floating-label1">Name</span>
+                    </div>
+                    <div class="div1 mx-auto py-3" style="width: 250px;position: relative;">
+                        <input type="text" class="email" style="width: 100%;" required/>
+                        <span class="floating-label2">Email</span>
+                    </div>
+                    <div class="div1 mx-auto py-3" style="width: 250px;position: relative;">
+                        <input type="text" class="message" style="width: 100%;" required/>
+                        <span class="floating-label3">Drop us a line!</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" style="color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 footer-left">
+                    <img src="img/td_logo.png" alt="logo">
+                    <h3>Think Digital</h3>
+                    <p>Fulfilling the Tech Thirst</p>
+                </div>
+                <ul class="col-sm-2">
+                    <li>Explore</li>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Domains</li>
+                    <li>Projects</li>
+                    <li>Team</li>
+                </ul>
+                <ul class="col-sm-2">
+                    <li>Social</li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>LinkedIn</li>
+                    <li>Twitter</li>
+                </ul>
+                <ul class="col-sm-2">
+                    <li>Get in Touch</li>
+                    <li>thinkdigital@gmail.com</li>
+                    <li>0123456789</li>
+                    <li>0123456789</li>
+                </ul>
+                <div class="w-100">
+                    <p class="copyright"> © ThinkDigital 2020.</p>
+                </div>
+            </div>
+            
+        </div>
     </section>
 
     
