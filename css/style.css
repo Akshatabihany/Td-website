@@ -9,7 +9,7 @@ body{
 
 .icon-bar{
   position: fixed;
-  top: 64%;
+  top: 50%;
 }
 
 .icon-bar a{
@@ -22,8 +22,7 @@ body{
 }
 
 .landing-img {
-  background-image: url("../img/bg.jpg");
-  background-color: #cccccc;
+  background-image: url("../img/startup_3.svg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
@@ -65,9 +64,10 @@ body{
     }
   }
   
-  #hero:before {
+#hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.6);
+    background: #272727;
+    opacity: 0.3;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -416,7 +416,7 @@ footer p{
 }
 
 .td-email{
-  font-weight: 700;
+  font-weight: 600!important;
 }
 
 .copyright{
