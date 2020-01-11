@@ -270,7 +270,6 @@ body{
 input{
   border: none;
   border-bottom: 2px solid #255F85;
-  width: 300px;
   background-color:#eee;
 }
 
@@ -300,6 +299,10 @@ input{
   height: 35px !important;
 }
 
+.message{
+  width: 400px;
+}
+
 .floating-label1,
 .floating-label2,
 .floating-label3
@@ -326,13 +329,18 @@ input{
   -o-transition:  0.5s ease;
 }
 
+@media(max-width:600px){
+  .form-btn{
+    margin-bottom: 3rem;
+  }
+}
+
 .form-btn:hover{
   background-color: #255f85;
   color: white;
 }
 
 footer{
-  height: 17rem;
   width: 100%;
   background-color: #272727;
   text-align: center;
@@ -354,6 +362,19 @@ footer{
   display: inline;
   list-style: none;
   font-weight: 600;
+}
+
+@media (max-width:600px){
+  .sections{
+    padding: 2% 0;
+  }
+  .sections li{
+    display: block;
+  }
+  .sections li:not(:last-child):after{
+    display: none;
+    padding: 0;
+  }
 }
 
 .footer-icon-bar{
