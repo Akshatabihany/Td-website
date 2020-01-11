@@ -407,6 +407,10 @@ footer p{
   color: #eee;
   line-height: 2rem;
   font-weight: 600;
-  margin: 0;
+  margin: 0!important;
+}
+
+.copyright p{
+  margin: 0%;
 }
 
