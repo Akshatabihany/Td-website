@@ -395,7 +395,7 @@ footer p{
 }
 
 .td-email{
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .copyright{
@@ -407,5 +407,6 @@ footer p{
   color: #eee;
   line-height: 2rem;
   font-weight: 600;
+  margin: 0;
 }
 
