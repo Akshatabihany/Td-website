@@ -7,20 +7,6 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-.icon-bar{
-  position: fixed;
-  top: 50%;
-}
-
-.icon-bar a{
-  display: block;
-  text-align: center;
-  padding: 10px;
-  font-size: 1.1rem;
-  background-color: black;
-  color: #EA4335;
-}
-
 .landing-img {
   background-image: url("../img/startup_3.svg");
   height: 100%; 
