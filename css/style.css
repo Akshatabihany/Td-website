@@ -8,11 +8,18 @@ body{
 }
 
 .landing-img {
-  background-image: url("../img/startup_3.svg");
+  background-image: url("../img/startup_3.svg"), radial-gradient(#cce2f1, #255f85);
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+}
+
+@media (max-width:600px){
+  .landing-img{
+    background-image: url("../img/startup_3.svg"), radial-gradient(#cce2f1, #255f85);
+    background-size: auto;
+    z-index: -1;
+  }
 }
 
 .navbar{
@@ -88,6 +95,10 @@ body{
     #hero h1 {
       font-size: 28px;
       line-height: 36px;
+
+    }
+    #hero h2{
+      margin-bottom: 150%!important;
     }
   }
   
